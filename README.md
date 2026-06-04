@@ -1,10 +1,10 @@
-# 🕸️ NovaScrape AI: Intelligent Web Scraping & Semantic Data Extraction Tool
+Web Scraping & Semantic Data Extraction Tool
 
-A clean, production-ready, modular AI web scraping application utilizing **Selenium** (dynamic rendering), **BeautifulSoup** (text extraction & cleanup), **LangChain & LangGraph** (agentic state workflow), and **Llama 3.3** via **Groq** for high-quality structured analysis.
+AI web scraping application utilizing **Selenium** (dynamic rendering), **BeautifulSoup** (text extraction & cleanup), **LangChain & LangGraph** (agentic state workflow), and **Llama 3.3** via **Groq** for high-quality structured analysis.
 
 ---
 
-## 🏗️ Architecture & Workflow
+Architecture & Workflow
 
 The application employs **LangGraph** to model the execution flow as a deterministic state machine, ensuring clean segregation of concerns, error isolation, and step-by-step auditability.
 
@@ -72,7 +72,7 @@ graph TD
 
 ---
 
-## 🚀 Running the Application
+ Running the Application
 
 Launch the Streamlit web server by running:
 ```bash
@@ -82,8 +82,7 @@ streamlit run app.py
 Open `http://localhost:8501` in your browser. Enter a URL, select the extraction type, and click **Run AI Scraper Pipeline** to witness the agentic extraction in action!
 
 ---
-
-## 📁 File Structure
+File Structure
 
 - [app.py](file:///C:/Users/imvc4/webscraping/app.py): Streamlit dashboard interface and session state manager.
 - [workflow.py](file:///C:/Users/imvc4/webscraping/workflow.py): State graphs, transition rules, and execution steps for LangGraph.
