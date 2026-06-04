@@ -33,9 +33,7 @@ graph TD
 4. **Agentic Orchestrator (`workflow.py`)**: Coordinates the node execution sequence using **LangGraph**. If any node triggers an exception, the state flow isolates the error gracefully without crashing.
 5. **AI Semantic Processor (`llm.py`)**: Leverages **LangChain's** LCEL chain format and **Groq's Llama 3.3 70B** model to execute semantic extractions based on the user's queries.
 
----
-
-## ⚙️ Installation & Setup
+ Installation & Setup
 
 ### Prerequisites
 - Python 3.10+ (tested on Python 3.13.3)
